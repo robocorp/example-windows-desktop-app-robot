@@ -27,7 +27,7 @@ Search for the song
 
 *** Keywords ***
 Select the song
-    Send Keys To Input    {TAB}{TAB}{TAB}
+    Send Keys To Input    {TAB}    with_enter=False
 
 *** Keywords ***
 Play the song
